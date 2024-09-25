@@ -1,0 +1,208 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+ul,
+li {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.titulo {
+  font-family: "Roboto";
+  font-weight: 600;
+}
+
+.descricao {
+  font-size: 18px;
+  font-family: "Works Sans";
+  font-weight: 400;
+}
+
+.header {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-logo a {
+  font-size: 36px;
+  color: #000;
+}
+
+.header-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.header-menu a {
+  color: #000;
+}
+
+.submenu {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  gap: 10px;
+}
+
+.submenu li a {
+  padding: 5px;
+}
+
+.hoje {
+  color: #8a0000;
+}
+
+.amanha {
+  color: #1d7f13;
+}
+
+.home {
+  color: #000;
+}
+
+.main {
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+  margin: 0 auto 0;
+}
+
+.main-box {
+  background: #f7f7f7;
+  max-width: 300px;
+  display: grid;
+  gap: 10px;
+  padding: 20px;
+  border: 1px solid #d7d7d7;
+}
+
+.main-box h2 {
+  font-size: 20px;
+}
+
+.botao {
+  text-transform: uppercase;
+  background: black;
+  color: #fff;
+  text-align: center;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.footer {
+  margin-top: 30px;
+  border-top: 1px solid black;
+}
+.footer p {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px;
+}
+
+.main-filme {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.box-detalhe {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+}
+
+.box-detalhe img {
+  grid-column: 1;
+}
+
+.box-detalhe article {
+  padding: 20px;
+  background: #e7e7e7;
+}
+
+.main-sobre {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.sobre-paragrafo {
+  max-width: 500px;
+  margin: 20px 0px;
+  font-size: 18px;
+}
+
+.main-contato {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  height: 420px;
+}
+.contatos li {
+  padding: 5px 0px;
+}
+.contatos li a {
+  color: #000;
+  text-decoration: underline;
+}
+
+.genio-fundo {
+  background: rgba(255, 152, 0, 0.1);
+}
+
+.magico-fundo {
+  background: rgba(255, 235, 59, 0.2);
+}
+
+.redeSocial-fundo {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.batman-fundo {
+  background: rgba(214, 83, 15, 0.3);
+}
+
+.tropaElite-fundo {
+  background: rgba(206, 187, 122, 0.5);
+}
+
+.scarface-Fundo {
+  background: rgba(255, 255, 255, 0.1);
+}
